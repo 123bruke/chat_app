@@ -117,7 +117,7 @@ npm run preview # serve the production build locally
 
 ### Security rules
 
-The project ships hardened Firestore rules in [`firestore.rules`](./firestore.rules)
+The project ships hardened Firestore rules in [`firestore-data/firestore.rules`](./firestore-data/firestore.rules)
 covering:
 
 - **Users** — read for any signed-in user, write/update only for the owner
