@@ -80,7 +80,7 @@ VITE_FIREBASE_APP_ID=your-app-id
 ```
 
 > The app also ships with a default Firebase config in
-> [`firebase-applet-config.json`](./firebase-applet-config.json). Any `VITE_FIREBASE_*`
+> [`config/firebase-applet-config.json`](./config/firebase-applet-config.json). Any `VITE_FIREBASE_*`
 > environment variables **override** it, so you can run against your own project without
 > touching the config file.
 
@@ -136,7 +136,7 @@ conversations/{conversationId}       → Conversation (participants + preview)
 conversations/{id}/messages/{msgId}  → Message
 ```
 
-> `firebase-applet-config.json` also declares a **namespace Firestore database**
+> `config/firebase-applet-config.json` also declares a **namespace Firestore database**
 > (`firestoreDatabaseId`). The app explicitly passes it to `getFirestore()` in
 > [`src/firebase/config.ts`](./src/firebase/config.ts).
 
