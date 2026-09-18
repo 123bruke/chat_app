@@ -6,6 +6,10 @@
 
 ChatFlow brings instant 1-on-1 messaging to the browser with live presence, search, profiles, themes and a fully responsive UI.
 
+<div align="center">
+  <img src="./docs/chatflow-screenshot.svg" alt="ChatFlow app screenshot" width="1000" />
+</div>
+
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
