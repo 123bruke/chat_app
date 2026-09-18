@@ -227,5 +227,5 @@ reusing the code.
 ---
 
 <div align="center">
-  Made with ❤️ by the ChatFlow team
+  Made with ❤️ by   Biruk Ahmye
 </div>
